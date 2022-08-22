@@ -154,7 +154,7 @@ void setup()
   mqtt_connect();
   //Inicializa el sensor de temperatura y humedad
   dht.begin();
-  // Uncomment if your photocell is connected to 5V/3.3V instead of the other resistor
+  // Se ajusta cuando la fotoresistencia esta conectada entre el punto de medicion y el punto de 3.3V
   photocell.setPhotocellPositionOnGround(false);
   
 }
