@@ -1,0 +1,50 @@
+{
+  "Petición a timescale" : {
+    "transaction" : "Petición a timescale",
+    "sampleCount" : 30,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 4752.166666666667,
+    "medianResTime" : 4929.0,
+    "minResTime" : 3164.0,
+    "maxResTime" : 5065.0,
+    "pct1ResTime" : 5053.7,
+    "pct2ResTime" : 5060.05,
+    "pct3ResTime" : 5065.0,
+    "throughput" : 5.184033177812338,
+    "receivedKBytesPerSec" : 23.267398911353034,
+    "sentKBytesPerSec" : 0.8505054432348367
+  },
+  "Petición a postgres" : {
+    "transaction" : "Petición a postgres",
+    "sampleCount" : 30,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 19550.666666666668,
+    "medianResTime" : 19772.5,
+    "minResTime" : 17925.0,
+    "maxResTime" : 20139.0,
+    "pct1ResTime" : 20010.8,
+    "pct2ResTime" : 20133.5,
+    "pct3ResTime" : 20139.0,
+    "throughput" : 1.46484375,
+    "receivedKBytesPerSec" : 6.24847412109375,
+    "sentKBytesPerSec" : 0.23174285888671875
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 60,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 12151.416666666668,
+    "medianResTime" : 11495.0,
+    "minResTime" : 3164.0,
+    "maxResTime" : 20139.0,
+    "pct1ResTime" : 19891.7,
+    "pct2ResTime" : 20015.399999999998,
+    "pct3ResTime" : 20139.0,
+    "throughput" : 2.2838871759735073,
+    "receivedKBytesPerSec" : 9.996467112024666,
+    "sentKBytesPerSec" : 0.36800916409729356
+  }
+}
